@@ -71,7 +71,13 @@ img{
     main{
         display: flex;
         align-items: center;
-        gap: 2em;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
     }
-        
+    main>*{
+        width: 25%;
+        margin: 0 1em;
+        flex-grow: 1;
+    }
 }
